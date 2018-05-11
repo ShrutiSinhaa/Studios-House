@@ -1,0 +1,36 @@
+@import '../modularStyling.scss';
+
+.bedroom{
+    margin: 10px;
+    width: calc(40% - 20px);
+    border: 2px solid #000000;
+    height: calc(60% - 20px);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #7d8baa;
+
+    .title{
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      bottom:0;
+      padding: 5px;
+      @extend %title_light;
+    }
+
+    .bed{
+      float: right;
+      width: 150px;
+      height: 200px;
+      background: #388db4;
+      border: 1px solid #f0f0f0;
+      .pillow{
+        width: 90%;
+        margin: 5px auto;
+        height: 40px;
+        background: white;
+      }
+    }
+    
+}

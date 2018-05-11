@@ -1,0 +1,18 @@
+@import '../modularStyling.scss';
+
+.bathroom{
+    margin: 10px;
+    width: calc(40% - 20px); 
+    border: 2px solid #c1c1c1;
+    height: calc(40% - 20px); 
+    @extend %tile;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .title{
+      width: 100%;
+      text-align: center;
+      @extend %title_dark;
+    }
+}

@@ -1,0 +1,46 @@
+@import '../modularStyling.scss';
+
+.livingRoom{
+    margin: 10px;
+    width: calc(60% - 20px);
+    border: 2px solid #000000;
+    height: calc(50% - 20px);
+    @extend %carpet;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .title{
+      position: absolute;
+      top: 0;
+      padding: 5px;
+      @extend %title_light;
+    }
+
+    .furniture{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: calc(100% - 20px);
+      padding: 10px;
+      .couch{
+        width: 250px;
+        height: 75px;
+        background-color: #160009;
+        .pillow{
+          width: 50px;
+          height: 50px;
+          background-color: #681e68;
+          margin: 5px;
+          margin-left: auto;
+        }
+      }
+      .tv{
+        width: 100px;
+        height: 20px;
+        background-color: #0c0c0c
+      }
+    }
+    
+}

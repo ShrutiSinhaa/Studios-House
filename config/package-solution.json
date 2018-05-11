@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "studios-house-client-side-solution",
+    "id": "a7e3efe5-805a-49d2-8195-0e83d189da64",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/studios-house.sppkg"
+  }
+}

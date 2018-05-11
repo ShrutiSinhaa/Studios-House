@@ -1,0 +1,32 @@
+@import '../modularStyling.scss';
+
+.kitchen{
+    margin: 10px;
+    width: calc(60% - 20px); 
+    border: 2px solid #c1c1c1;
+    height: calc(40% - 20px); 
+    @extend %tile;
+    position: absolute;
+    bottom: calc(10%);
+    left: 0;
+
+    .title{
+      width: 100%;
+      padding: 5px;
+      @extend %title_dark;
+    }
+    .cabinets{
+      width: 90%;
+      height: 70px;
+      background-color: #754d3c;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      .sink {
+        height: 80%;
+        width: 100px;
+        margin: 5px auto;
+        background: #c1c1c1;
+      }
+    }
+}

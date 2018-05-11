@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "studios-house",
+    "libraryId": "a7e3efe5-805a-49d2-8195-0e83d189da64",
+    "environment": "spo"
+  }
+}
